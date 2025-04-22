@@ -26,11 +26,31 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+          50: '#f0f4ff',
+          100: '#e1e9fe',
+          200: '#c9d8fd',
+          300: '#a3bdfc',
+          400: '#789af9',
+          500: '#4f74f3',
+          600: '#3a5eea', 
+          700: '#2c48d4',
+          800: '#2a3cac',
+          900: '#273789',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+          50: '#f8f5ff',
+          100: '#f0eafe',
+          200: '#e4d8fd',
+          300: '#cfb7fa',
+          400: '#b68ef6',
+          500: '#9f66ee',
+          600: '#8b47e2', 
+          700: '#7737c7',
+          800: '#6030a1',
+          900: '#502b82',
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -51,6 +71,21 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				subha: {
+					DEFAULT: '#4F46E5',
+          light: '#818CF8',
+          dark: '#3730A3', 
+          50: '#f0f4ff',
+          100: '#e1e9fe',
+          200: '#c9d8fd',
+          300: '#a3bdfc',
+          400: '#789af9',
+          500: '#4f74f3',
+          600: '#3a5eea', 
+          700: '#2c48d4',
+          800: '#2a3cac',
+          900: '#273789',
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
